@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Predikament</title>
+</head>
+
+<body>
+  <main>
+    <h1>Predikament</h1>
+    <form>
+      <div class="image-picker">
+        <label class="image-choice">
+          <input type="radio" checked name="chosen-image" value="/baked_goods_1.jpg">
+          
+        </label>
+        <label class="image-choice">
+          <input type="radio" name="chosen-image" value="/baked_goods_2.jpg">
+          
+        </label>
+        <label class="image-choice">
+          <input type="radio" name="chosen-image" value="/baked_goods_3.jpg">
+          
+        </label>
+      </div>
+      <div class="prompt-box">
+        <label>
+          <input name="prompt" placeholder="Enter your case description" type="text"
+            value="">
+        </label>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+    <p class="output-status">
+      Status here...
+    </p>
+    <p class="output">
+
+    </p>
+
+    <!-- <table id="output">
+      <tr>
+        <th>
+          Urgency Score
+        </th>
+        <th>
+          Justification
+        </th>
+      </tr>
+      <tr>
+        <td>
+          Text Response
+        </td>
+        <td>JSON Output</td>
+      </tr>
+    </table> -->
+
+  </main>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
